@@ -3,17 +3,17 @@
 title VPN menu
 
 :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: ::
-:Autostart																			   ::
-::																					   ::
-:: :: To autostart a Remote Connection upon logon, create the following file :: ::	   ::
-:: %systemprofile%/Program Files/Startup/vpn										   ::
-::																					   ::
-:: :: With the following contents :: ::												   ::	
-:: ECHO # Starting VPN #															   ::	
-:: set "autostart=goto :ALL"														   ::
-:: start %CMDCMDLINE% /c %HOMEDRIVE%\menu.bat										   ::
-:: exit																				   ::
-::																					   ::
+:Autostart                                                                             ::
+::                                                                                     ::
+:: :: To autostart a Remote Connection upon logon, create the following file :: ::     ::
+:: %systemprofile%/Program Files/Startup/vpn                                           ::
+::                                                                                     ::
+:: :: With the following contents :: ::                                                ::	
+:: ECHO # Starting VPN #                                                               ::	
+:: set "autostart=goto :ALL"                                                           ::
+:: start %CMDCMDLINE% /c %HOMEDRIVE%\menu.bat                                          ::
+:: exit                                                                                ::
+::                                                                                     ::
 :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: ::
 
 %autostart%
